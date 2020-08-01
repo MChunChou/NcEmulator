@@ -1,0 +1,6 @@
+.draw .draw-notice {
+    position: absolute;
+    color: white;
+    top: 15px;
+    left: 10px
+}

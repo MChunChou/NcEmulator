@@ -1,0 +1,30 @@
+.nccode {            
+    grid-template-columns: 60px 1fr ;
+    background: rgb(220, 220, 220);                
+}
+
+.center {
+    display: inline-grid;
+    justify-items: center; 
+    align-items: center;
+    height: 100%;
+    width: 100%; 
+}
+
+.line-nums {                               
+    text-align: end;   
+    overflow-y: hidden;
+    background-color: rgba(220, 220, 220, 0.3);    
+}
+
+.resize-none {
+    resize: none;
+}
+
+.code-style {    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    width: 93%;
+    height: 98%;             
+}

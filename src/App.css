@@ -1,0 +1,24 @@
+.app-main {
+  position: absolute;  
+  display: flex;
+  box-orient: horizontal;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  height: 100%;
+  width: 100%;
+}
+
+#draw-nc-code {
+  flex: 1;  
+}
+
+#draw-emulator {
+  flex: 2;  
+}
+
+.relative {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
