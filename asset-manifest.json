@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/NcEmulator/static/css/main.28ca149a.chunk.css",
+    "main.css": "/NcEmulator/static/css/main.9e143154.chunk.css",
     "main.js": "/NcEmulator/static/js/main.fc6081b8.chunk.js",
     "main.js.map": "/NcEmulator/static/js/main.fc6081b8.chunk.js.map",
     "runtime-main.js": "/NcEmulator/static/js/runtime-main.75a53efe.js",
@@ -8,15 +8,15 @@
     "static/js/2.d953a2ac.chunk.js": "/NcEmulator/static/js/2.d953a2ac.chunk.js",
     "static/js/2.d953a2ac.chunk.js.map": "/NcEmulator/static/js/2.d953a2ac.chunk.js.map",
     "index.html": "/NcEmulator/index.html",
-    "precache-manifest.86d68d0904693a465697757d56448d88.js": "/NcEmulator/precache-manifest.86d68d0904693a465697757d56448d88.js",
+    "precache-manifest.f80ed26035f85a59dde2063fa28d935a.js": "/NcEmulator/precache-manifest.f80ed26035f85a59dde2063fa28d935a.js",
     "service-worker.js": "/NcEmulator/service-worker.js",
-    "static/css/main.28ca149a.chunk.css.map": "/NcEmulator/static/css/main.28ca149a.chunk.css.map",
+    "static/css/main.9e143154.chunk.css.map": "/NcEmulator/static/css/main.9e143154.chunk.css.map",
     "static/js/2.d953a2ac.chunk.js.LICENSE.txt": "/NcEmulator/static/js/2.d953a2ac.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.75a53efe.js",
     "static/js/2.d953a2ac.chunk.js",
-    "static/css/main.28ca149a.chunk.css",
+    "static/css/main.9e143154.chunk.css",
     "static/js/main.fc6081b8.chunk.js"
   ]
 }
