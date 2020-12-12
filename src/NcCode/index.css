@@ -26,5 +26,8 @@
     font-size: 15px;
     line-height: 25px;
     width: 93%;
-    height: 98%;             
+    height: 98%;   
+    background: none;
+    outline: none;
+    border: none;             
 }
