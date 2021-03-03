@@ -5,7 +5,7 @@ import {
 
 export class ThreeHelper {
 
-    constructor(width, height) {             
+    constructor(width, height) {
         this.scene = new THREE.Scene();
         this.camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 3000);
         this.renderer = new THREE.WebGLRenderer();
@@ -15,8 +15,8 @@ export class ThreeHelper {
         this.scene.background = new THREE.Color(0x000000);
         this.mouseLeftDown = false
         this.mousePosition = []
-        
-        //create object3D 
+
+        // create object3D 
         this.object = new THREE.Object3D();
         this.object.rotateX(-Math.PI / 2);
         this.scene.add(this.object);
@@ -28,7 +28,7 @@ export class ThreeHelper {
         // add axesHelper
         this.axesHelper = new THREE.AxesHelper(300);
         this.axesHelper.position.set(0, 0, 5);
-        this.object.add(this.axesHelper);        
+        this.object.add(this.axesHelper);
     }
 
     line(points = [], color = 0xdddd0d) {
@@ -52,17 +52,17 @@ export class ThreeHelper {
         this.object.remove(this.object.getObjectByName('drawline'))
     }
 
-    remove(){
+    remove() {
         cancelAnimationFrame(this.animateID);
     }
 
-    animate() {        
-        let animate = this.animate;                
+    animate() {
+        let animate = this.animate;
         this.animateID = requestAnimationFrame(animate.bind(this));
         this.renderer.render(this.scene, this.camera);
     }
 
-    getRendererDom() {        
+    getRendererDom() {
         return this.renderer.domElement;
     }
 
@@ -76,11 +76,10 @@ export class ThreeHelper {
         this.camera.position.set(0, 0, 1000);
     }
 
-    changeDom(width, height){                             
+    changeDom(width, height) {
         this.canvas = this.getRendererDom();
         this.renderer.setSize(width, height);
         this.camera.aspect = width / height;
-        this.camera.updateProjectionMatrix();        
+        this.camera.updateProjectionMatrix();
     }
-
 }
