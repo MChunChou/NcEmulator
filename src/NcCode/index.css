@@ -1,6 +1,8 @@
 .nccode {            
     grid-template-columns: 60px 1fr ;
-    background: rgb(220, 220, 220);                
+    /* background: rgb(220, 220, 220); */
+    background-color: black;
+    color:aliceblue;
 }
 
 .center {
@@ -28,6 +30,10 @@
     width: 93%;
     height: 98%;   
     background: none;
-    outline: none;
-    border: none;             
+    /* outline: none;
+    border: none;*/
+}
+
+.cnc-code textarea{
+    color:aliceblue;
 }
