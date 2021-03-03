@@ -14,7 +14,6 @@ function Draw(props) {
         }
     });
 
-
     function renderThree(){
 
         let height = mount.getBoundingClientRect().height;
@@ -25,7 +24,7 @@ function Draw(props) {
         mount.appendChild(threeHelper.getRendererDom())
         threeHelper.animate();
         setInitFlag(true);
-        setThreeHelper(threeHelper);                            
+        setThreeHelper(threeHelper); 
 
     }
 
@@ -44,7 +43,7 @@ function Draw(props) {
         }        
     }
         
-    if (lines.length > 0) {
+    if (lines.length > 0 && threeHelper) {
         threeHelper.clear();        
         threeHelper.line(lines);
     }
