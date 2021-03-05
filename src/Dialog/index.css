@@ -44,6 +44,8 @@
 
 .dialog label {
     cursor: pointer;
+    width: 100%;
+    display: inline-block;
 }
 
 .dialog .control:hover {    
