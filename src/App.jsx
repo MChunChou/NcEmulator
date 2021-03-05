@@ -4,7 +4,18 @@ import './App.css';
 
 import NcCode from './NcCode/NcCode.jsx'
 import Draw from './Draw/Draw.jsx'
+import Dialog from './Dialog/Dialog.jsx'
 import GmCode from 'gmcode'
+
+const dialogCtn = `
+  模擬 GM code 路徑，結尾需有 M02 
+  目前支援以下 code 
+  ‧ G00 X Y Z
+  ‧ G01 X Y Z  
+  ‧ G02 Z Y Z R (測試中)
+  ‧ M02
+  ‧ G90 G91  
+`
 
 function App() {
   let [code , setCode] = useState(null);
@@ -31,13 +42,16 @@ function App() {
     <div className="App">
       <header className="App-header">
       </header>
-      <main className="app-main">
+      <main className="app-main">        
         <div id='draw-nc-code'>
           <NcCode setCode={setCode}/>         
         </div>
         <div id="draw-emulator">
           <Draw lines={lines}/>
         </div>
+        <Dialog 
+          open={true}
+          content={dialogCtn}></Dialog>
       </main>
     </div>
   );
