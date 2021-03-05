@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/NcEmulator/precache-manifest.6febd12f32249dea6a4bfc8eaf896f35.js"
+  "/NcEmulator/precache-manifest.2b29602b885762d9b21059c97d385ad1.js"
 );
 
 self.addEventListener('message', (event) => {
